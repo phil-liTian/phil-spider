@@ -12,8 +12,12 @@ const arrRoutes = [
 	},
 	{
 		path: '/api/tang300',
-		component: './controller/tang300.ts'
-	}
+		component: './controller/tang300.ts',
+	},
+	{
+		path: '/api/wx-login',
+		component: './controller/we-app/getUserInfo.ts',
+	},
 ];
 
 export default arrRoutes
